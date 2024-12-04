@@ -1,3 +1,5 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../source')))
 #戻り値："グー","チョキ","パー"
 def player_pon():
    hands_dic = {'1':"グー",'2':"チョキ",'3':"パー"}
